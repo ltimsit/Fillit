@@ -1,0 +1,20 @@
+usage : Add as argument a file containing between 1 and 26 Tetriminos
+separated with an empty line.
+
+Each of them should be made of 4 '#' in a 4 by 4 map filled with '.'.
+A valid Tetrimino should have at least one connection between each of its
+block elements.
+
+A few exemples of valid Tetriminos :
+
+.... .... #### .... .##. .... .#.. .... ....
+..## .... .... .... ..## .##. ###. ##.. .##.
+..#. ..## .... ##.. .... ##.. .... #... ..#.
+..#. ..## .... ##.. .... .... .... #... ..#.
+
+A few exemples of invalid Tetriminos :
+\33[0:31m\\]
+#### ...# ##... #. .... ..## #### ,,,, .HH.
+...# ..#. ##... ## .... .... #### #### HH..
+.... .#.. ....  #. .... .... #### ,,,, ....
+.... #... ....     .... ##.. #### ,,,, ....
